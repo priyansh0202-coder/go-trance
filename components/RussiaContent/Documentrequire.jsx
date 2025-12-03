@@ -6,12 +6,11 @@ const Documentrequire = () => {
   return (
     <div className=" lg:mt-5 flex flex-col gap-5  p-1">
       <div className="flex flex-col justify-center items-start gap-2">
-        <h2 className="text-[22px] lg:text-[28px] font-bold text-[#1E90FF]">
-          Documents Needed to Study MBBS in Russia
+        <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600">
+          Documents Needed to Study MBBS in Georgia
         </h2>
         <p className=" text-[14px] sm:text-[16px] font-semibold">
-          Candidates need to submit the following documents for admission to
-          MBBS institutes in Russia:
+          Required Documents:
         </p>
       </div>
       <div className="text-[14px] sm:text-[16px] flex flex-col gap-2 ">
@@ -24,8 +23,7 @@ const Documentrequire = () => {
             />
 
             <p className="flex gap-2 text-justify">
-              A passport must be with at least 18 months of validity from the
-              date of application.
+              10th & 12th Mark sheets and Certificates
             </p>
           </div>
           <div className="  flex gap-2">
@@ -36,7 +34,8 @@ const Documentrequire = () => {
             />
 
             <p className="flex gap-2 text-justify">
-              Mark sheets and certificates of class X and class XII
+              NEET Scorecard
+
             </p>
           </div>
           <div className="  flex  gap-2">
@@ -47,7 +46,7 @@ const Documentrequire = () => {
             />
 
             <p className="flex gap-2 text-justify">
-              Photocopy of the NEET scorecard.
+              Valid Passport (minimum 2 years validity)
             </p>
           </div>
           <div className="  flex gap-2 ">
@@ -58,7 +57,8 @@ const Documentrequire = () => {
             />
 
             <p className="flex gap-2 text-justify">
-              Eight to ten photographs that are the size of a passport.
+              Birth Certificate
+
             </p>
           </div>
           <div className="  flex  gap-2 ">
@@ -68,7 +68,7 @@ const Documentrequire = () => {
               className="h-[18px] w-[18px] mt-1"
             />
 
-            <p className="flex gap-2 text-justify">A health certificate</p>
+            <p className="flex gap-2 text-justify">Medical Check-up & HIV Test Reports.</p>
           </div>
           <div className="  flex  gap-2 ">
             <Image
@@ -78,7 +78,7 @@ const Documentrequire = () => {
             />
 
             <p className="flex gap-2 text-justify">
-              Original Birth Certificate
+              Passport-size photographs.
             </p>
           </div>
           <div className="  flex  gap-2 ">
@@ -89,7 +89,7 @@ const Documentrequire = () => {
             />
 
             <p className="flex gap-2 text-justify">
-              An admission letter from the university.
+              School Leaving Certificate.
             </p>
           </div>
           <div className="  flex  gap-2 ">
@@ -99,7 +99,7 @@ const Documentrequire = () => {
               className="h-[18px] w-[18px] mt-1"
             />
 
-            <p className="flex gap-2 text-justify">Download the Visa</p>
+            <p className="flex gap-2 text-justify">Bank Statement (for proof of funds)</p>
           </div>
           <div className="  flex  gap-2 ">
             <Image

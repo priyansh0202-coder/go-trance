@@ -7,26 +7,18 @@ import Link from "next/link";
 const highlights = [
   { label: "Intake for MBBS Course", value: "September" },
   {
-    label: "Eligibility Criteria for MBBS",
-    value: "12th standard with a minimum of 50% in PCB; Minimum age: 17 years",
+    label: "Course Duration",
+    value: "6 Years (including 1 year of internship)",
   },
-  { label: "NEET Examination", value: "Mandatory (must be qualified)" },
+  { label: "Medium of Instruction", value: "English" },
   {
-    label: "Duration of MBBS Course",
-    value: "6 years (5 years of academics + 1-year internship)",
+    label: "Recognition",
+    value: "NMC, WHO, WFME, ECFMG, FAIMER, etc.)",
   },
-  { label: "Medium of Teaching", value: "English language" },
-  { label: "Number of NMC-approved Universities", value: "54" },
-  { label: "Recognition", value: "NMC, WHO, WDOMS, FAIMER, ECFMG" },
-  { label: "Minimum Tuition Fees", value: "$3,500 / Year" },
-  { label: "Maximum Tuition Fees", value: "$6,000 / Year" },
-  {
-    label: "Top Medical Universities",
-    value:
-      "Bashkir State Medical University, Voronezh State Medical University and many more",
-  },
-  { label: "Cost of Living", value: "Approx $200 - $300 per month" },
-  { label: "Admission Processing Time", value: "30 - 45 days" },
+  { label: "Average Annual Tuition", value: "$4,000 - $8,000 USD" },
+  { label: "Average Living Cost", value: "$3,000 - $4,000 USD per year" },
+  { label: "Eligibility", value: "50% in PCB in 12th, NEET Qualified (for Indians)" },
+  { label: "Intake Season", value: "September (Main), February (Limited)r" },
 ];
 
 const reasonsToStudyMBBS = [
@@ -41,17 +33,13 @@ const Highlight = () => {
   return (
     <>
       <div className="relative overflow-x-auto mt-7 sm:rounded-lg">
-        <h2 className="text-[22px] lg:text-[28px] font-bold text-[#1E90FF] lg:font-semibold ">
-          MBBS in Russia: Quick Highlights 2025
+        <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600 lg:font-semibold ">
+          Quick Facts: MBBS in Georgia
         </h2>
-        <p className="text-[14px] sm:text-[16px] font-semibold mt-2">
-          The below table contains some quick information for students who want
-          to study MBBS in Russia:
-        </p>
         <table className="w-full text-[14px] sm:text-[16px] text-left rtl:text-right border border-black mt-5">
           <thead>
-            <tr className="odd:bg-[#3c9aff] even:bg-white border text-white ">
-              <th className="px-4 py-2 border border-black text-center">Particulars</th>
+            <tr className="odd:bg-teal-500 even:bg-white border text-white ">
+              <th className="px-4 py-2 border border-black text-center">Feature</th>
               <th className="px-4 py-2 border border-black text-center">Details</th>
             </tr>
           </thead>
@@ -71,7 +59,7 @@ const Highlight = () => {
 
       <Planningform />
       <div className="w-full mt-7 flex flex-col gap-2">
-        <h2 className="text-[22px] lg:text-[28px] font-bold text-[#1E90FF]">
+        <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600">
           Why Study MBBS in Russia for Indian Students?
         </h2>
         <p className="font-semibold text-[14px] sm:text-[16px]">
@@ -84,7 +72,7 @@ const Highlight = () => {
               <Image
                 src={rightsign}
                 alt="vector"
-                className="h-[18px] w-[18px] mt-1"
+                className="h-[18px] text-teal-600 w-[18px] mt-1"
               />
               <p className="flex gap-2 text-justify">{reason}</p>
             </div>
@@ -92,7 +80,7 @@ const Highlight = () => {
         </div>
 
         <div className="mt-4">
-          <p className="text-[#1E90FF]  py-2 px-1 text-sm font-bold rounded-md  ">
+          <p className="text-teal-600  py-2 px-1 text-sm font-bold rounded-md  ">
             <span id="Eligibility" className=" text-black font-bold">
               Read More:
             </span>{" "}

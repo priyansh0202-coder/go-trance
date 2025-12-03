@@ -7,41 +7,41 @@ const AdmissionProcess = () => {
     {
       number: 1,
       description:
-        "Visit the official university to complete the online application",
+        "Research & University Selection: Choose an NMC-approved university.",
     },
     {
       number: 2,
-      description: "Upload the necessary documents required for admission",
+      description: "Application Submission: Fill the online application and submit scanned documents.",
     },
     {
       number: 3,
       description:
-        "Receive an acceptance letter from the university based on eligibility",
+        "Receive Offer Letter: Upon eligibility review, the university issues an admission offer (invitation letter).",
     },
     {
       number: 4,
       description:
-        "Apply for a student visa at the Russian embassy using the acceptance letter",
+        "Fee Payment: Pay the first-year tuition fee to the university's official bank account.",
     },
     {
       number: 5,
       description:
-        "Pay the first-year tuition fees after receiving the acceptance letter",
+        "Visa Application: Apply for a student visa at the Georgian Embassy with the offer letter and fee receipt.",
     },
     {
       number: 6,
       description:
-        "Complete university registration and attend orientation before starting MBBS classes",
+        "Travel & Enrollment: Fly to Georgia, complete university registration, and begin studies.",
     },
   ];
 
   return (
     <div className="container mx-auto px-2 pt-8 pb-2">
-      <h2 className="text-[20px] lg:text-[28px] font-bold text-[#1E90FF] mb-3 text-left">
-        How to Apply for MBBS Admission in Russia ?
+      <h2 className="text-[20px] lg:text-[28px] font-bold text-teal-600 mb-3 text-left">
+        Admission Process
       </h2>
       <p className=" text-[14px] sm:text-[16px] text-left font-semibold mb-4">
-        Follow these comprehensive steps for a smooth admission process
+        The admission process is simple and typically follows these steps:
       </p>
 
       <div className="space-y-4 relative">
@@ -52,7 +52,7 @@ const AdmissionProcess = () => {
           >
             <div className="relative z-10 p-0">
               <div className="">
-                <span className="text-[14px] text-[#1E90FF] sm:text-[16px] font-bold whitespace-nowrap ">
+                <span className="text-[14px] text-teal-600 sm:text-[16px] font-bold whitespace-nowrap ">
                   Step {step.number} :
                 </span>
               </div>
@@ -64,8 +64,8 @@ const AdmissionProcess = () => {
           </div>
         ))}
       </div>
-      <div className="mt-4">
-        <p className="text-[#1E90FF] py-2 px-1  text-sm rounded-md font-bold ">
+      {/* <div className="mt-4">
+        <p className="text-teal-600 py-2 px-1  text-sm rounded-md font-bold ">
           <span id="Eligibility" className=" text-black font-bold">
             Read More:
           </span>{" "}
@@ -75,7 +75,7 @@ const AdmissionProcess = () => {
           >
             MBBS in Russia Admission                 </Link>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 };

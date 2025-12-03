@@ -210,7 +210,7 @@ const SemesterSyllabus = () => {
         </table>
       </div>
       <div className="mt-4">
-        <p className="text-[#1E90FF] px-1 text-sm sm:text-base rounded-md font-bold ">
+        <p className="text-teal-600 px-1 text-sm sm:text-base rounded-md font-bold ">
           <span id="Eligibility" className=" text-black  font-bold">
             Read More:
           </span>{" "}

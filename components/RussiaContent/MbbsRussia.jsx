@@ -42,7 +42,7 @@ export default function Faq() {
   return (
     <div className="lg:w-[100%]  py-8">
       {/* Heading */}
-      <h2 className="text-[22px] lg:text-[28px] font-[700] text-[#1E90FF]">
+      <h2 className="text-[22px] lg:text-[28px] font-[700] text-teal-600">
         MBBS in Russia - Important FAQs
       </h2>
 
@@ -63,17 +63,17 @@ export default function Faq() {
         <ul className="text-[14px] sm:text-[16px]  w-[25%] flex flex-col gap-1   mx-4 ">
           <Link href="https://tajikistanmedi.com/mbbs-in-tajikistan">
             {" "}
-            <li className="text-blue-600  hover:underline list-disc">
+            <li className="text-teal-600  hover:underline list-disc">
               MBBS in Tajikistan
             </li>
           </Link>
           <Link href="https://georgiamedi.com/mbbs-in-georgia">
-            <li className="text-blue-600  hover:underline list-disc">
+            <li className="text-teal-600  hover:underline list-disc">
               MBBS in Georgia
             </li>
           </Link>
           <Link href="https://uzbekistanmedi.com/mbbs-in-uzbekistan">
-            <li className="text-blue-600  hover:underline list-disc">
+            <li className="text-teal-600  hover:underline list-disc">
               MBBS in Uzbekistan
             </li>
           </Link>

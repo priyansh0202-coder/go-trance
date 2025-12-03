@@ -3,7 +3,7 @@ import Header from "@/components/mbbs-in-russia/Header";
 
 export default function MBBSInRussia() {
   return (
-    <div>
+    <div className="bg-white">
       <Header />
       <Fullpage />
     </div>

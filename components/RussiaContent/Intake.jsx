@@ -9,7 +9,7 @@ const Intake = () => {
     <>
       {/* intake */}
       <div className=" overflow-x-auto mt-5">
-        <h2 className="font-bold text-[22px] lg:text-[28px] text-[#1E90FF]">
+        <h2 className="font-bold text-[22px] lg:text-[28px] text-teal-600">
           MBBS in Russia - Intake Date & Deadlines 2025
         </h2>
         <p className="font-semibold mt-1 text-[14px] sm:text-[16px]">
@@ -64,7 +64,7 @@ const Intake = () => {
 
       {/* Accreditation */}
       <div className="bg-[#D6EAFF] hidden md:block p-6 md:p-12 rounded-md mt-7 shadow-lg ">
-        <h2 className="text-[#1E90FF] text-[22px] lg:text-[28px] font-semibold mb-4 ">
+        <h2 className="text-teal-600 text-[22px] lg:text-[28px] font-semibold mb-4 ">
           MBBS in Russia: Accreditation & Recognition
         </h2>
         <p className="text-[14px] sm:text-[16px] font-semibold">
@@ -155,7 +155,7 @@ const Intake = () => {
 
       {/* russia vs india */}
       <div className="mt-7">
-        <h2 className="font-bold text-[22px] lg:text-[28px] text-[#1E90FF]">
+        <h2 className="font-bold text-[22px] lg:text-[28px] text-teal-600">
           MBBS in Russia vs MBBS in India
         </h2>
         <p className="text-[14px] sm:text-[16px] font-semibold">
@@ -235,7 +235,7 @@ const Intake = () => {
       </div>
 
       <div className="mt-8">
-        <p className="text-[#1E90FF]  py-2 px-1 text-sm sm:text-base rounded-md font-bold ">
+        <p className="text-teal-600  py-2 px-1 text-sm sm:text-base rounded-md font-bold ">
           <span id="Eligibility" className=" text-black font-bold">
             Read More:
           </span>{" "}
@@ -250,7 +250,7 @@ const Intake = () => {
 
       {/* course offered */}
       <div className="mt-5">
-        <h2 className="font-bold text-[22px] lg:text-[28px] text-[#1E90FF]">
+        <h2 className="font-bold text-[22px] lg:text-[28px] text-teal-600">
           Courses Offered by Russian Medical Universities
         </h2>
         <p className="mt-1 text-[14px] sm:text-[16px] font-semibold">
@@ -303,7 +303,7 @@ const Intake = () => {
       {/* medium of teaching */}
       <div className="  lg:mt-7 flex flex-col gap-3 mt-[40px]  p-1">
         <div className="flex flex-col justify-center items-start  gap-2">
-          <h2 className="text-[22px] lg:text-[28px] font-bold text-[#1E90FF]">
+          <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600">
             Medium of Teaching in Russia
           </h2>
         </div>
@@ -324,7 +324,7 @@ const Intake = () => {
 
       {/* Cost of Living in  */}
       <div className="mt-7">
-        <h2 className="font-bold text-[22px] lg:text-[28px] text-[#1E90FF]">
+        <h2 className="font-bold text-[22px] lg:text-[28px] text-teal-600">
           Cost of Living in Russia
         </h2>
         <p className="mt-1 text-[14px] sm:text-[16px] font-semibold">
@@ -373,7 +373,7 @@ const Intake = () => {
 
       {/* About */}
       <div className=" w-full mt-5 flex flex-col gap-2 ">
-        <h2 className="text-[22px] lg:text-[28px] font-bold  text-[#1E90FF]">
+        <h2 className="text-[22px] lg:text-[28px] font-bold  text-teal-600">
           About Russia
         </h2>
 

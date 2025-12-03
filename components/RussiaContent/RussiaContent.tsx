@@ -19,7 +19,7 @@ const RussiaContent = () => {
         <Syllabus />
         <Universitysection />
         <Intake />
-        <MbbsRussia />
+        {/* <MbbsRussia /> */}
         </div>
     );
 };

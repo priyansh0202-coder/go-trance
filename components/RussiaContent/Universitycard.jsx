@@ -13,81 +13,72 @@ const Universitycard = () => {
   };
 
   return (
-    <div className="grid grid-cols-1 gap-5">
-      {universities.map((university, index) => (
-        <div
-          key={university.id}
-          className="shadow-xl rounded-lg overflow-hidden mt-5 border p-5 flex flex-col gap-2"
-        >
-          <h3 className="text-[16px] sm:text-[22px] font-bold">
-            {index + 1}. {university.title}
-          </h3>
-          <div className="flex flex-col md:flex-row gap-4  pb-2 mb-2">
-            {/* <Image
-              src={university.logo}
-              alt={university.title}
-              className="w-[150px] h-[130px] object-contain mx-auto sm:mx-0 rounded-lg"
-            /> */}
-            {university.logo ? (
-              <Image
-                src={university.logo}
-                alt={university.title}
-                width={150}
-                height={130}
-                className="object-contain mx-auto sm:mx-0 rounded-lg"
-              />
-            ) : null}
+    <div className="overflow-x-auto mt-6">
+      <table className="min-w-full border border-black rounded-lg">
+        {/* Table Header */}
+        <thead className="bg-teal-600 text-white border-b border-black">
+          <tr>
+            <th className="px-6 py-3 text-left text-lg font-semibold">University Name</th>
+            <th className="px-6 py-3 text-left text-lg font-semibold">Details</th>
+          </tr>
+        </thead>
 
-            <div  >
-              <ul className="list-disc text-[14px] sm:text-[16px] p-3">
-                {university.disc.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
-            </div>
-          </div>
+        {/* Table Body */}
+        <tbody>
+          <tr className="odd:bg-gray-100 even:bg-white">
+            <td className="px-6 py-4 font-semibold">Tbilisi State Medical University (TSMU)</td>
+            <td className="px-6 py-4">
+              <p className="font-semibold text-teal-600">Overview:</p>
+              <p className="text-gray-700">The oldest and most prestigious medical university in Georgia, established in 1918. Renowned for high academic standards and research.</p>
+              <p className="mt-2 font-semibold text-teal-600">Key Points:</p>
+              <p className="text-gray-700">NMC & WHO approved, extensive clinical base, diverse international student community.</p>
+            </td>
+          </tr>
 
-          <table className="w-full text-[14px] sm:text-[16px] text-left rtl:text-right border border-black">
-            <tbody>
-              {university.tableData.map((row, i) => (
-                <tr
-                  key={i}
-                  className={`${
-                    i % 2 === 0 ? "bg-[#D6EAFF]" : "bg-white"
-                  } border`}
-                >
-                  <td className="px-4 py-2 border border-black font-medium">
-                    {row.heading}
-                  </td>
-                  <td className="px-4 py-2 border border-black">{row.row}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <div className="flex justify-center gap-2 mt-2">
-            <button
-              onClick={handleOpenModal}
-              className=" bg-[#1E90FF] w-[132px] cursor-pointer h-[40px]  rounded-md text-white text-[14px] sm:text-[16px] "
-            >
-              Apply Now
-            </button>
-            <button
-              className="border border-black w-[132px] cursor-pointer h-[40px] rounded-md text-[14px] sm:text-[16px]"
-            >
-              <Link
-                href="#"
-                className="cursor-pointer ">
-                Read More
-              </Link>
-            </button>
-          </div>
-        </div>
-      ))}
+          <tr className="odd:bg-gray-100 even:bg-white">
+            <td className="px-6 py-4 font-semibold">Ivane Javakhishvili Tbilisi State University (TSU)</td>
+            <td className="px-6 py-4">
+              <p className="font-semibold text-teal-600">Overview:</p>
+              <p className="text-gray-700">A leading classical university with a highly regarded medical faculty. Offers a European curriculum.</p>
+              <p className="mt-2 font-semibold text-teal-600">Key Points:</p>
+              <p className="text-gray-700">One of the oldest in the region, strong theoretical & practical training.</p>
+            </td>
+          </tr>
 
-      {isOpen && (
-        <LeadFormModalPopup isOpen={isOpen} onClose={() => setIsOpen(false)} />
-      )}
+          <tr className="odd:bg-gray-100 even:bg-white">
+            <td className="px-6 py-4 font-semibold">Batumi Shota Rustaveli State University (BSU)</td>
+            <td className="px-6 py-4">
+              <p className="font-semibold text-teal-600">Overview:</p>
+              <p className="text-gray-700">Major educational hub in coastal Batumi, known for modern facilities.</p>
+              <p className="mt-2 font-semibold text-teal-600">Key Points:</p>
+              <p className="text-gray-700">Affordable fees, beautiful location, focus on clinical skills.</p>
+            </td>
+          </tr>
+
+          <tr className="odd:bg-gray-100 even:bg-white">
+            <td className="px-6 py-4 font-semibold">University of Georgia (UG)</td>
+            <td className="px-6 py-4">
+              <p className="font-semibold text-teal-600">Overview:</p>
+              <p className="text-gray-700">Private university with modern infrastructure and American teaching methodology.</p>
+              <p className="mt-2 font-semibold text-teal-600">Key Points:</p>
+              <p className="text-gray-700">Modern campus, small groups, high USMLE pass rate.</p>
+            </td>
+          </tr>
+
+          <tr className="odd:bg-gray-100 even:bg-white">
+            <td className="px-6 py-4 font-semibold">Caucasus International University (CIU)</td>
+            <td className="px-6 py-4">
+              <p className="font-semibold text-teal-600">Overview:</p>
+              <p className="text-gray-700">Rapidly growing private university with on-campus teaching hospital.</p>
+              <p className="mt-2 font-semibold text-teal-600">Key Points:</p>
+              <p className="text-gray-700">Practical training, integrated hospital, modern simulation labs.</p>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
     </div>
+
   );
 };
 

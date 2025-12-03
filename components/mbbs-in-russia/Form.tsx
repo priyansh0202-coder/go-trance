@@ -133,7 +133,7 @@ const MbbsForm = () => {
 
   return (
     <div className="hidden lg:flex flex-col gap-6 border border-gray-300 rounded-xl p-8 py-6 h-fit sticky top-32 shadow-xl bg-white">
-      <h2 className="font-semibold text-xl text-[#1E90FF] text-center mb-1">
+      <h2 className="font-semibold text-xl text-teal-600 text-center mb-1">
         Admission Process For 2025-26 Starting Soon
       </h2>
       <form onSubmit={handleSubmit} className="flex flex-col gap-6">
@@ -205,7 +205,7 @@ const MbbsForm = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="cursor-pointer w-full rounded-md bg-[#1E90FF] font-semibold text-white py-3 mt-3 hover:bg-[#1E90FF] transition duration-300 ease-in-out transform hover:scale-105 disabled:opacity-50"
+          className="cursor-pointer w-full rounded-md bg-teal-600 font-semibold text-white py-3 mt-3 hover:bg-teal-600 transition duration-300 ease-in-out transform hover:scale-105 disabled:opacity-50"
         >
           {isSubmitting ? "Submitting..." : "Submit"}
         </button>

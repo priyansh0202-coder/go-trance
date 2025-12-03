@@ -93,10 +93,10 @@ const Planningform = () => {
   };
 
   return (
-    <div className="mt-10 lg:w-[100%] lg:mx-auto flex flex-col bg-[#D6EAFF]  py-6  lg:py-10 p-5">
+    <div className="mt-10 lg:w-[100%] lg:mx-auto flex flex-col bg-teal-100  py-6  lg:py-10 p-5">
       <div className="mx-auto ">
         <div className="flex flex-col gap-3">
-          <h2 className="text-[24px] lg:text-3xl sm:text-4xl font-bold text-center text-[#1E90FF]">
+          <h2 className="text-[24px] lg:text-3xl sm:text-4xl font-bold text-center text-teal-600">
             Planning To Study MBBS?
           </h2>
           <p className="text-sm lg:text-[18px] font-semibold text-center text-gray-700">
@@ -174,7 +174,7 @@ const Planningform = () => {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="p-2 cursor-pointer bg-[#1E90FF] text-white font-medium rounded-md w-full lg:w-[200px] transition duration-300 ease-in-out transform hover:scale-105 disabled:opacity-50"
+              className="p-2 cursor-pointer bg-[#4fb9c7] text-white font-medium rounded-md w-full lg:w-[200px] transition duration-300 ease-in-out transform hover:scale-105 disabled:opacity-50"
             >
               {isSubmitting ? "Submitting..." : "Apply Now"}
             </button>

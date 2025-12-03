@@ -5,11 +5,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 const Herosection = () => {
-    return (
-        <>
-            <div className="flex items-center justify-center mt-5 ">
-                <div className="h-fit  flex flex-col gap-4  ">
-                    <div className="flex gap-3 w-full h-[3.125rem] items-center px-4 sm:px-6">
+  return (
+    <>
+      <div className="flex items-center justify-center mt-5 ">
+        <div className="h-fit  flex flex-col gap-4  ">
+          {/* <div className="flex gap-3 w-full h-[3.125rem] items-center px-4 sm:px-6">
                         <div className="w-[3.125rem] h-[3.125rem]">
                             <Image
                                 src={Profile}
@@ -24,7 +24,7 @@ const Herosection = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <span className="text-[#1E90FF] font-[550] ">
+                                    <span className="text-[#4dc8d8] font-[550] ">
                                         Muhammed Riyaz, <br />
                                     </span>
                                 </Link>
@@ -34,47 +34,32 @@ const Herosection = () => {
                         <div className=" relative bottom-[10px] right-12">
                             <Image src={tick} alt="profile" className="w-[23px] h-[23px]" />
                         </div>
-                    </div>
-                    <div className="text-justify text-[14px] sm:text-[16px] ">
-                        <p className="">
-                            <span className="">
-                                {" "}
-                                <span className="font-bold ">MBBS in Russia</span> is a popular option for Indian students because
-                                of its affordable cost, accreditation, and high-quality
-                                education. The total duration of an MBBS course is around 6
-                                years. Indian students have to clear NEET and have at least 50%
-                                marks in PCB for 10+2 exams to enter the Russian MBBS colleges.
-                            </span>
-                            <br /> <br />
-                            <span className="">
-                                {" "}
-                                When considering options for pursuing medical education in
-                                Russia, students can trust well-established institutions such as
-                                Bashkir State Medical University, Crimea Federal University, Far
-                                Eastern Federal University, and many more.
-                            </span>
-                            <br /> <br />
-                            <span className="">
-                                {" "}
-                                The MBBS degrees in Russia are recognized by WHO, NMC, and other
-                                medical councils of the world. The MBBS course fees in Russia
-                                for a duration of 6 years range between ₹15 lacs to ₹25 lacs.
-                                The medium of instruction in Russian medical universities is
-                                English. Indian students opting to study MBBS in Russia must
-                                have a valid NEET score.{" "}
-                            </span>
-                            <br /> <br />
-                            <span className="">
-                                Deciding to study in Russia is feasible for students who want to
-                                get an education at an affordable price and are looking for a
-                                better future in the medical field abroad.
-                            </span>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </>
-    );
+                    </div> */}
+          <div className="text-justify text-[14px] sm:text-[16px] ">
+            <p className="">
+              <span className="">
+                Pursuing an <span className="font-bold ">MBBS in Georgia</span>{" "}
+                has become a premier choice for Indian students seeking
+                high-quality, affordable medical education abroad. Georgian
+                medical universities offer English-medium programs recognized by
+                the World Health Organization (WHO), the National Medical
+                Commission (NMC) of India, and other major global medical
+                councils. With state-of-the-art infrastructure,
+              </span>
+              <br /> <br />
+              <span className="">
+                {" "}
+                European-standard curricula, and no donation or entrance exam
+                barriers, Georgia provides a direct pathway to a successful
+                medical career. This comprehensive guide covers everything you
+                need to know about studying MBBS in Georgia.
+              </span> 
+            </p>
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Herosection;
