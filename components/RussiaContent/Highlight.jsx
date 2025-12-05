@@ -5,7 +5,6 @@ import Planningform from "./Planningform";
 import Link from "next/link";
 
 const highlights = [
-  { label: "Intake for MBBS Course", value: "September" },
   {
     label: "Course Duration",
     value: "6 Years (including 1 year of internship)",
@@ -22,16 +21,43 @@ const highlights = [
 ];
 
 const reasonsToStudyMBBS = [
-  "The cost of studying MBBS in Russia is lower as compared to private medical colleges in India.",
-  "The degrees offered by these leading institutes are recognized by the World Health Organization (WHO), National Medical Commission (NMC), formerly known as the Medical Council of India, and other international medical bodies.",
-  "The Indian students studying at medical universities in Russia can practice anywhere in India.",
-  "The Russian medical colleges have all the basic amenities, including laboratory facilities, library facilities, and well-equipped classrooms. This maintains the standard of education.",
-  "The hostels and accommodation of the medical colleges situated in Russia are comfortable and secure for Indian students.",
+  "Globally Recognized Degrees: Degrees are recognized by WHO, NMC (formerly MCI), ECFMG (USA), WFME, and many European councils.",
+  "Affordable Tuition Fees: Significantly lower costs compared to private medical colleges in India or other Western countries.",
+  "No Entrance Exam: Admission is based on Class 12 marks (PCB) and eligibility, with no complex entrance tests like NEET for admission (NEET qualification is mandatory for practice in India).",
+  "English Medium Instruction: The entire MBBS program is taught in English, eliminating language barriers.",
+  "High-Quality Education & Infrastructure: European-standard education with modern labs, hospitals, and teaching methodologies.",
+  "Safe & Welcoming Environment: Georgia is known for its safety, low crime rate, and hospitable attitude towards international students.",
+  "Simple Admission Process: Straightforward documentation and a streamlined visa process with high approval rates.",
+  "Clinical Exposure: Early patient contact and practical training in affiliated hospitals.",
 ];
+
 
 const Highlight = () => {
   return (
     <>
+      <div className="w-full mt-7 flex flex-col gap-2">
+        <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600">
+          Why Choose Georgia for MBBS?
+        </h2>
+        <p className="font-semibold text-[14px] sm:text-[16px]">
+          Georgia stands out as a top destination for medical studies due to its unique advantages:
+        </p>
+        <div className="text-[14px] sm:text-[16px] flex flex-col gap-2 mt-3">
+          {reasonsToStudyMBBS.map((reason, index) => (
+            <div key={index} className="flex gap-2">
+              <Image
+                src={rightsign}
+                alt="vector"
+                className="h-[18px] text-teal-600 w-[18px] mt-1"
+              />
+              <p className="flex gap-2 text-justify">{reason}</p>
+            </div>
+          ))}
+        </div>
+
+       
+      </div>
+      <Planningform />
       <div className="relative overflow-x-auto mt-7 sm:rounded-lg">
         <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600 lg:font-semibold ">
           Quick Facts: MBBS in Georgia
@@ -57,42 +83,6 @@ const Highlight = () => {
         </table>
       </div>
 
-      <Planningform />
-      <div className="w-full mt-7 flex flex-col gap-2">
-        <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600">
-          Why Study MBBS in Russia for Indian Students?
-        </h2>
-        <p className="font-semibold text-[14px] sm:text-[16px]">
-          Here are some reasons why Indian students must opt to study MBBS in
-          Russia:
-        </p>
-        <div className="text-[14px] sm:text-[16px] flex flex-col gap-2 mt-3">
-          {reasonsToStudyMBBS.map((reason, index) => (
-            <div key={index} className="flex gap-2">
-              <Image
-                src={rightsign}
-                alt="vector"
-                className="h-[18px] text-teal-600 w-[18px] mt-1"
-              />
-              <p className="flex gap-2 text-justify">{reason}</p>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-4">
-          <p className="text-teal-600  py-2 px-1 text-sm font-bold rounded-md  ">
-            <span id="Eligibility" className=" text-black font-bold">
-              Read More:
-            </span>{" "}
-            <Link
-              href="/blog/benefits-of-studying-mbbs-in-russia"
-              className="cursor-pointer hover:underline"
-            >
-              20 Benefits of Studying MBBS in Russia
-            </Link>
-          </p>
-        </div>
-      </div>
     </>
   );
 };

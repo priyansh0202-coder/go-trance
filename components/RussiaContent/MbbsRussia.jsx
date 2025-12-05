@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 import { LuCirclePlus, LuCircleMinus } from "react-icons/lu";
-import { mmbsRussiaFaqs } from "../../app/data/faqdata";
+import { faqs, } from "../../app/data/faqdata";
 import Link from "next/link";
 
 const Accordion = ({ question, answer, isOpen, onToggle }) => {
@@ -43,12 +43,12 @@ export default function Faq() {
     <div className="lg:w-[100%]  py-8">
       {/* Heading */}
       <h2 className="text-[22px] lg:text-[28px] font-[700] text-teal-600">
-        MBBS in Russia - Important FAQs
+        MBBS in Georgia - Important FAQs
       </h2>
 
       {/* FAQ List */}
       <div className="flex flex-col gap-2 md:gap-4 divide-y p-3 md:p-0">
-        {mmbsRussiaFaqs.map((faq, index) => (
+        {faqs.map((faq, index) => (
           <Accordion
             key={index}
             question={faq.question}
@@ -58,27 +58,7 @@ export default function Faq() {
           />
         ))}
       </div>
-      <div>
-        <span className="  pb-4 ">Read More:</span>
-        <ul className="text-[14px] sm:text-[16px]  w-[25%] flex flex-col gap-1   mx-4 ">
-          <Link href="https://tajikistanmedi.com/mbbs-in-tajikistan">
-            {" "}
-            <li className="text-teal-600  hover:underline list-disc">
-              MBBS in Tajikistan
-            </li>
-          </Link>
-          <Link href="https://georgiamedi.com/mbbs-in-georgia">
-            <li className="text-teal-600  hover:underline list-disc">
-              MBBS in Georgia
-            </li>
-          </Link>
-          <Link href="https://uzbekistanmedi.com/mbbs-in-uzbekistan">
-            <li className="text-teal-600  hover:underline list-disc">
-              MBBS in Uzbekistan
-            </li>
-          </Link>
-        </ul>
-      </div>
+     
     </div>
   );
 }

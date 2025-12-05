@@ -6,235 +6,6 @@ import Link from "next/link";
 const Feestructure = () => {
   return (
     <>
-      <div className=" overflow-x-auto  sm:rounded-lg  mt-5">
-        <h2 className="text-[22px] lg:text-[28px] lg:font-semibold font-bold text-teal-600">
-          MBBS in Russia Fee Structure 2025-26
-        </h2>
-        <p className="text-[14px] sm:text-[16px] mt-2 font-semibold">
-          The total fees for MBBS programs in Russia range between $4,000 and
-          $6,000 per year. This covers both hostel fees and tuition fees. The
-          fees of some top universities are listed below:
-        </p>
-        <table className="w-full text-[14px] sm:text-[16px] text-left rtl:text-right border border-black mt-5">
-          <thead className="text-sm ">
-            <tr className="odd:bg-[rgb(10,239,255)] even:bg-white">
-              <th
-                scope="col"
-                className="px-4 py-2 border border-black text-center"
-              >
-                University Name
-              </th>
-              <th
-                scope="col"
-                className="px-4 py-2 border border-black text-center"
-              >
-                Annual Fees (Approx)
-              </th>
-            </tr>
-          </thead>
-          <tbody className="">
-            <tr className="odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/samara-state-medical-university" className="text-teal-600 hover:underline">
-                  Samara State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4000 USD</td>
-            </tr>
-            <tr className="  odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/pskov-state-university" className="text-teal-600 hover:underline">
-                  Pskov State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/altai-state-medical-university" className="text-teal-600 hover:underline">
-                  Altai State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4500 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/chechen-state-university" className="text-teal-600 hover:underline">
-                  Chechen State  University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">2300 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/kuban-state-medical-university" className="text-teal-600 hover:underline">
-                  Kuban State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">3500 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/tver-state-medical-university" className="text-teal-600 hover:underline">
-                  Tver State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">3200 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/dagestan-state-medical-university" className="text-teal-600 hover:underline">
-                  Dagestan State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">3500 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/bashkir-state-medical-university" className="text-teal-600 hover:underline">
-                  Bashkir State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">5600 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/tambov-state-university" className="text-teal-600 hover:underline">
-                  Tambov State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4200 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/ivanovo-state-medical-academy" className="text-teal-600 hover:underline">
-                  Ivanovo State Medical Academy
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">2000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/penza-state-medical-university" className="text-teal-600 hover:underline">
-                  Penza State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/smolensk-state-medical-university" className="text-teal-600 hover:underline">
-                  Smolensk State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">3500 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/tyumen-state-medical-university" className="text-teal-600 hover:underline">
-                  Tyumen State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4500 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/stavropol-state-medical-university" className="text-teal-600 hover:underline">
-                  Stavropol State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/voronezh-state-medical-university" className="text-teal-600 hover:underline">
-                  Voronezh State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">5000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/ural-state-medical-university" className="text-teal-600 hover:underline">
-                  Ural State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4200 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/belgorod-state-university" className="text-teal-600 hover:underline">
-                  Belgorod State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4900 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/siberian-state-medical-university" className="text-teal-600 hover:underline">
-                  Siberian State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">3200 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/novosibirsk-national-research-state-university" className="text-teal-600 hover:underline">
-                  Novosibirsk National Research State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">4000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/first-moscow-state-medical-university" className="text-teal-600 hover:underline">
-                  First Moscow State Medical University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">10000 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/lomonosov-moscow-state-university" className="text-teal-600 hover:underline">
-                  Lomonosov Moscow State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">7500 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/kabardino-balkarian-state-university" className="text-teal-600 hover:underline">
-                  Kabardino Balkarian State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">2800 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/tula-state-university" className="text-teal-600 hover:underline">
-                  Tula State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">3300 USD</td>
-            </tr>
-            <tr className=" odd:bg-[#D6EAFF] even:bg-white">
-              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
-                <Link href="/kursk-state-medical-university" className="text-teal-600 hover:underline">
-                  Kursk State University
-                </Link>
-              </td>
-              <td className="px-4 py-2 border border-black text-center">5500 USD</td>
-            </tr>
-
-          </tbody>
-        </table>
-        <p className="text-[14px] sm:text-[16px] mt-4">
-          <span className="font-semibold">Note:</span> Tuition fees of the
-          medical universities mentioned in the table are subject to
-          fluctuation.{" "}
-        </p>
-      </div>
-
       <div className=" w-full  flex flex-col gap-5 mt-5">
         <div className="flex flex-col justify-center items-start gap-2">
           <h2 className="text-[22px] lg:text-[28px] font-bold text-teal-600">
@@ -296,20 +67,79 @@ const Feestructure = () => {
           </div>
         </div>
 
-        {/* <div className="mt-0">
-          <p className="text-teal-600 px-1 text-sm sm:text-base rounded-md font-bold ">
-            <span id="Eligibility" className=" text-black font-bold">
-              Read More:
-            </span>{" "}
-            <Link
-              href="/blog/mbbs-in-russia-eligibility"
-              className="cursor-pointer hover:underline"
-            >
-              MBBS in Russia Eligibility                        </Link>
-          </p>
-        </div> */}
+
 
       </div>
+      <div className=" overflow-x-auto  sm:rounded-lg  mt-5">
+        <h2 className="text-[22px] lg:text-[28px] lg:font-semibold font-bold text-teal-600">
+          Fee Structure for MBBS in Georgia (Approximate)
+        </h2>
+        <p className="text-[14px] sm:text-[16px] mt-2 font-semibold">
+          The cost of studying MBBS in Georgia is highly affordable. Below is a general breakdown:
+
+        </p>
+        <table className="w-full text-[14px] sm:text-[16px] text-left rtl:text-right border border-black mt-5">
+          {/* <thead className="text-sm ">
+            <tr className="odd:bg-[rgb(10,239,255)] even:bg-white">
+              <th
+                scope="col"
+                className="px-4 py-2 border border-black text-center"
+              >
+                University Name
+              </th>
+              <th
+                scope="col"
+                className="px-4 py-2 border border-black text-center"
+              >
+                Annual Fees (Approx)
+              </th>
+            </tr>
+          </thead> */}
+          <tbody className="">
+            <tr className="odd:bg-[#D6EAFF] even:bg-white">
+              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
+                <p  className="text-teal-600 ">
+                  Tuition Fees per year
+                </p>
+              </td>
+              <td className="px-4 py-2 border border-black text-center">$4,000 - $8,000 USD</td>
+            </tr>
+            <tr className="odd:bg-[#D6EAFF] even:bg-white">
+              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
+                <p  className="text-teal-600 ">
+                  Hostel Accommodation per year
+                </p>
+              </td>
+              <td className="px-4 py-2 border border-black text-center">$1,500 - $3,000 USD</td>
+            </tr>
+            <tr className="odd:bg-[#D6EAFF] even:bg-white">
+              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
+                <p  className="text-teal-600 ">
+                  Living Expenses (food, transport, etc.)
+                </p>
+              </td>
+              <td className="px-4 py-2 border border-black text-center"> $1,500 - $2,500 USD per year</td>
+            </tr>
+            <tr className="odd:bg-[#D6EAFF] even:bg-white">
+              <td className="px-4 py-2 border border-black text-[14px] sm:text-[16px]">
+                <p  className="text-teal-600 ">
+                  Total Approximate Annual Cost
+                </p>
+              </td>
+              <td className="px-4 py-2 border border-black text-center">$7,000 - $13,500 USD (approx. ₹5.8L - ₹11.2L INR)</td>
+            </tr>
+
+
+          </tbody>
+        </table>
+        <p className="text-[14px] sm:text-[16px] mt-4">
+          <span className="font-semibold">Note:</span> Tuition fees of the
+          medical universities mentioned in the table are subject to
+          fluctuation.{" "}
+        </p>
+      </div>
+
+      
     </>
   );
 };

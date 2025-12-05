@@ -7,19 +7,21 @@ import Syllabus from "./Syllabus";
 import Universitysection from "./Universitysection";
 import Intake from "./Intake";
 import MbbsRussia from "./MbbsRussia";
+import Career from "./Career";
 
 const RussiaContent = () => {
     return (
         <div className="w-[95%] mx-auto lg:w-[85%]">
         <HeroSection />
         <Highlight />
+        <Universitysection />
         <FeeStructure />
         <AdmissionProcess />
-        <Documentrequire />
-        <Syllabus />
-        <Universitysection />
-        <Intake />
-        {/* <MbbsRussia /> */}
+            <Documentrequire />
+            <Career />
+        {/* <Syllabus /> */}
+        {/* <Intake /> */}
+        <MbbsRussia />
         </div>
     );
 };

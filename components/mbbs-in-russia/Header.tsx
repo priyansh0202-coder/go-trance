@@ -24,13 +24,13 @@ const Header = () => {
                 </div>
                 <div className="absolute top-24 sm:top-24 text-white left-5 lg:left-[10%] text-sm font-semibold">
                     <p>
-                        Home /<span className="text-gray-400"> MBBS in Russia</span>
+                        Home /<span className="text-gray-400"> MBBS in Georgia</span>
                     </p>
                 </div>
                 {/* Heading */}
                 <div className="text-white absolute top-32 sm:top-44 w-[90%] sm:w-[50%] left-5 lg:left-[10%] flex flex-col gap-1">
                     <h1 className="text-4xl sm:text-5xl font-semibold mt-3  w-full">
-                        MBBS in Russia
+                        MBBS in Georgia
                     </h1>
                 </div>
             </div>
